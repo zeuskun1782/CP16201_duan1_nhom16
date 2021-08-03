@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingTop="15dp"
+        android:orientation="horizontal"
+        android:background="@drawable/custom_linearlayout"
+        android:layout_margin="10dp"
+        android:layout_height="150dp">
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="120dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/tv_maKH"
+                android:paddingLeft="15dp"
+                android:textSize="15dp"
+                android:textStyle="bold|normal"
+                android:text="Mã Khách hàng"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingLeft="15dp"
+                android:textSize="18dp"
+                android:id="@+id/tv_tenKH"
+                android:textStyle="bold|normal"
+                android:text="Tên Khách hàng"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Năm sinh"
+                android:paddingLeft="15dp"
+                android:textStyle="bold|normal"
+                android:id="@+id/tv_namSinh"
+                android:textSize="15dp"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Điện thoại"
+                android:paddingLeft="15dp"
+                android:textStyle="bold|normal"
+                android:id="@+id/tv_dienThoai"
+                android:textSize="15dp"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="Địa chỉ"
+                android:textStyle="bold|normal"
+                android:id="@+id/_tv_diaChi"
+                android:textSize="15dp"
+                android:layout_height="wrap_content">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="50dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:id="@+id/img_xoaKH"
+                android:src="@drawable/ic_deltet"
+                android:textStyle="normal|bold"
+                android:backgroundTint="#00BFFF"
+                android:text="Xóa"
+                android:layout_height="50dp">
+            </ImageView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

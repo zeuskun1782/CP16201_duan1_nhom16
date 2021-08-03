@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:background="@drawable/custom_linearlayout"
+        android:layout_height="150dp">
+        <LinearLayout
+            android:layout_width="325dp"
+            android:orientation="vertical"
+            android:layout_height="130dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/tv_maXe"
+                android:textSize="15dp"
+                android:textStyle="bold|normal"
+                android:text="Mã xe"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="18dp"
+                android:id="@+id/tv_tenXe"
+                android:textStyle="bold|normal"
+                android:text="Tên xe"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Giá xe"
+                android:id="@+id/tv_giaXe"
+                android:textStyle="bold|normal"
+                android:textSize="15dp"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Màu xe"
+                android:id="@+id/tv_mauXe"
+                android:textStyle="bold|normal"
+                android:textSize="15dp"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Trạng Thái "
+                android:id="@+id/tv_TrangThai"
+                android:textStyle="bold|normal"
+                android:textSize="15dp"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Mã Hãng"
+                android:id="@+id/_tv_maHangXe"
+                android:textStyle="bold|normal"
+                android:textSize="16dp"
+                android:layout_height="wrap_content">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="50dp"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:src="@drawable/ic_deltet"
+                android:id="@+id/img_xoaXe"
+                android:textStyle="normal|bold"
+                android:backgroundTint="#00BFFF"
+                android:text="Xóa"
+                android:layout_height="50dp">
+            </ImageView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

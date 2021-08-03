@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.duan1.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.duan1.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.duan1.Fragment.FragmentHome"
+        android:label="Trang Chủ"
+        tools:layout="@layout/fragment_home2" />
+    <fragment
+        android:id="@+id/nav_nhanvien"
+        android:name="com.example.duan1.Fragment.FragmentNhanVien"
+        android:label="Quản lý nhân viên"
+        tools:layout="@layout/fragment_nhan_vien" />
+    <fragment
+        android:id="@+id/nav_KhachHang"
+        android:name="com.example.duan1.Fragment.FragmentKhachHang"
+        android:label="Quản lý khách hàng"
+        tools:layout="@layout/fragment_khach_hang" />
+    <fragment
+        android:id="@+id/nav_hang"
+        android:name="com.example.duan1.Fragment.FragmentHang"
+        android:label="Quản lý hãng "
+        tools:layout="@layout/fragment_hang" />
+    <fragment
+        android:id="@+id/nav_xe"
+        android:name="com.example.duan1.Fragment.FragmentXe"
+        android:label="Quản lý xe"
+        tools:layout="@layout/fragment_xe" />
+    <fragment
+        android:id="@+id/nav_taikhoan"
+        android:name="com.example.duan1.Fragment.FragmentTaoTaiKhoan"
+        android:label="Tạo tài khoản"
+        tools:layout="@layout/fragment_tao_tai_khoan" />
+    <fragment
+        android:id="@+id/nav_doimatkhau"
+        android:name="com.example.duan1.Fragment.FragmentDoiMatKhau"
+        android:label="Đổi mật khẩu"
+        tools:layout="@layout/fragment_doi_mat_khau" />
+    <fragment
+        android:id="@+id/nav_chitiethoadon"
+        android:name="com.example.duan1.Fragment.FragmentChiTietHoaDon"
+        android:label="Chi tiết hóa đơn"
+        tools:layout="@layout/fragment_chi_tiet_hoa_don" />
+</navigation>

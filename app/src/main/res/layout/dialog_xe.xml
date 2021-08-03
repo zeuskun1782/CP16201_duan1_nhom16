@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="420dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="12dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="300dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:src="@drawable/xe"
+                    android:layout_height="50dp">
+                </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Xe"
+                    android:textStyle="normal|bold"
+                    android:textSize="40dp">
+                </TextView>
+            </LinearLayout>
+            <EditText
+                android:layout_width="0dp"
+                android:id="@+id/ed_maXe"
+                android:layout_height="0dp">
+            </EditText>
+            <EditText
+                android:drawableStart="@drawable/name"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_editext"
+                android:layout_width="250dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/ed_tenXe"
+                android:hint="Thêm tên xe"
+                android:layout_height="50dp">
+            </EditText>
+            <EditText
+                android:drawableStart="@drawable/ic_monye"
+                android:layout_width="250dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/ed_giaXe"
+                android:background="@drawable/custom_editext"
+                android:hint="Thêm giá xe"
+                android:layout_height="50dp">
+            </EditText>
+            <EditText
+                android:drawableStart="@drawable/ic_trangthaixe"
+                android:layout_width="250dp"
+                android:id="@+id/ed_trangThai"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/custom_editext"
+                android:hint="Trang Thái"
+                android:layout_height="50dp">
+            </EditText>
+            <EditText
+                android:drawableStart="@drawable/ic_color"
+                android:layout_width="250dp"
+                android:background="@drawable/custom_editext"
+                android:id="@+id/ed_mauXe"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:hint="Thêm màu xe"
+                android:layout_height="50dp">
+            </EditText>
+            <Spinner
+                android:drawableStart="@drawable/ic_hang"
+                android:layout_width="250dp"
+
+                android:background="@drawable/custom_editext"
+                android:id="@+id/Sp_mahang"
+                android:layout_marginTop="10dp"
+                android:layout_height="50dp">
+            </Spinner>
+        </LinearLayout>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+
+            android:backgroundTint="#1E90FF"
+            android:textStyle="normal|bold"
+            android:text="Thêm"
+            android:id="@+id/btn_themXe">
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:textStyle="normal|bold"
+            android:backgroundTint="#1E90FF"
+            android:layout_height="wrap_content"
+            android:text="Hủy"
+            android:id="@+id/btn_huyXe">
+        </Button>
+    </LinearLayout>
+</LinearLayout>

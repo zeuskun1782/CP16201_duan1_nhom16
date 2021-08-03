@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.FragmentDoiMatKhau">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:textStyle="normal|bold"
+            android:layout_height="match_parent"
+            android:text="Đổi Mật Khẩu" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="350dp"
+            android:id="@+id/ed_doiMKCU"
+            android:paddingLeft="20dp"
+            android:drawableStart="@drawable/ic_matkhau"
+            android:inputType="textPassword"
+            android:background="@drawable/custom_editext"
+            android:hint="Nhập lại mật khẩu cũ"
+            android:layout_marginTop="25dp"
+            android:layout_height="40dp">
+        </EditText>
+        <EditText
+            android:layout_width="350dp"
+            android:id="@+id/ed_NhapMKmoi"
+            android:layout_marginTop="25dp"
+            android:paddingLeft="20dp"
+            android:inputType="textPassword"
+            android:background="@drawable/custom_editext"
+            android:drawableStart="@drawable/ic_matkhau"
+            android:hint="Mật khẩu mới"
+            android:layout_height="40dp">
+        </EditText>
+        <EditText
+            android:layout_width="350dp"
+            android:id="@+id/ed_nhaplaiMkmoi"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:hint="Nhập lại mật khẩu "
+            android:background="@drawable/custom_editext"
+            android:drawableStart="@drawable/ic_matkhau"
+            android:layout_marginTop="25dp"
+            android:layout_height="40dp">
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="150dp"
+            android:text="Đồng ý"
+            android:id="@+id/btn_doiMK"
+            android:backgroundTint="#00BFFF"
+            android:layout_marginLeft="30dp"
+            android:layout_height="40dp">
+        </Button>
+        <Button
+            android:layout_width="150dp"
+            android:text="Hủy"
+            android:id="@+id/btn_huydoiMK"
+            android:backgroundTint="#00BFFF"
+            android:layout_marginLeft="50dp"
+            android:layout_height="40dp">
+        </Button>
+    </LinearLayout>
+</LinearLayout>
